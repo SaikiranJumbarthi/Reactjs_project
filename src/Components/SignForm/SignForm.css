@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+    height: 75vh;
+    width: 100%;
+    justify-content: center;
+ }
+ .innerContainer{
+    height: 66%;
+    width: 50%;
+    background: rgb(31, 2, 93);
+    border-radius: 8px;
+ }
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+input{
+    height: 30px;
+    width: 50%; 
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 10px;  
+}
+.submit-btn{
+    width: 40%;
+    border-radius: 8px;
+    height: 40px;
+    background: green;
+    color: white;
+    font-size: large;
+    text-align: center;
+    font-weight: 400;
+    border: none;
+}
+.redirect{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
